@@ -1,10 +1,12 @@
-import Button from '../components/common/Button';
+import AuthForm from '../components/auth/AuthForm';
+import AuthTemplate from '../components/auth/AuthTemplate';
 
 const LoginPage = () => {
   return (
     <div>
-      {' '}
-      <Button> 버튼 </Button>
+      <AuthTemplate>
+        <AuthForm />
+      </AuthTemplate>
     </div>
   );
 };
