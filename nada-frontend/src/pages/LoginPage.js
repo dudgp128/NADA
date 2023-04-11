@@ -5,7 +5,7 @@ const LoginPage = () => {
   return (
     <div>
       <AuthTemplate>
-        <AuthForm />
+        <AuthForm type="login" />
       </AuthTemplate>
     </div>
   );
