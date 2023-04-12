@@ -1,4 +1,3 @@
-//import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import AuthForm from '../../components/auth/AuthForm';
 import { changeField, initializeForm } from '../../modules/auth';
